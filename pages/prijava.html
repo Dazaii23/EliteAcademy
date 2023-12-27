@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="../img/logo2.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prijava za trening</title>
+    <link rel="stylesheet" href="../css/style.css"> <!-- Uključite svoj CSS fajl ako je potrebno -->
+</head>
+<body>
+    <div class="navi">
+        <div class="navi-logo">
+            <img class="logo" src="../img/logo.png" alt="Logo">
+        </div>
+    
+        <ul class="navi-menu">
+            <li class="navi-item">
+                <a href="../index.html"> Početna </a>
+            </li>
+
+            <li class="navi-item">
+                <a href="onama.html"> O nama </a>
+            </li>
+    
+            <li class="navi-item">
+                <a href="trening.html"> Trening </a>
+            </li>
+    
+            <li class="navi-item">
+                <a href="takmicenja.html"> Takmičenja </a>
+            </li>
+    
+            <li class="navi-item">
+                <a href="instruktori.html"> Instruktori </a>
+            </li>
+    
+            <li class="navi-item">
+                <a href="kontakt.html"> Kontakt </a>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <div class=".training-form">
+        <h2>Prijava za trening</h2>
+        <form action="#" method="post">
+            <label for="name">Ime i prezime:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail adresa:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Telefon:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="training">Izaberite trening:</label>
+            <select id="training" name="training" required>
+                <option value="kikboks">Kik-boks</option>
+                <option value="judo">Judo</option>
+                <option value="boks">Boks</option>
+                <option value="mauythai">Mauy Thai</option>
+                <option value="rvanje">Rvanje</option>
+            </select>
+
+            <label for="message">Dodatne napomene:</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+
+            <button type="submit">Prijavi se</button>
+        </form>
+    </div>
+
+</body>
+</html>

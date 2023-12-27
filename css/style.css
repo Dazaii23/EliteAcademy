@@ -1,0 +1,356 @@
+
+body {
+    background-image: url('../img/bgimg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+
+}
+
+.navi {
+    background-color: #333; 
+    color: #fff; 
+    padding: 5px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    top: 0%;
+    width: 98%;
+}
+
+
+.navi-logo {
+    display: flex; 
+}
+
+.logo {
+    width: 140px; 
+    height: auto; 
+    margin-right: 10px; 
+}
+
+
+.navi-menu {
+    list-style-type: none; 
+    display: flex;
+    gap: 20px; 
+}
+
+
+.navi-item a {
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+.navi-item a:hover {
+    background-color: #555; 
+    color: #FFD700;
+}
+
+
+
+
+.welcome {
+    padding: 50px;
+    text-align: center;
+    
+}
+
+.welcome h1 {
+    border:2px solid #222 ;
+    background-color: #222;
+    border-radius: 5px;
+    color:chocolate;
+}
+
+.welcome p {
+    margin-left: 65%;
+    font-size: 18px;
+    border: 2px solid #222;
+    border-radius: 5px;
+    background-color: #222;
+    color: #ccc;
+}
+
+
+.text {
+    text-align: center;
+    padding: 50px;
+}
+
+.text h2 {
+    color: chocolate;
+}
+
+.text p {
+    font-size: 20px;
+    border: 2px solid #222;
+    background:#222;
+    border-radius: 5px;
+
+}
+
+.coment-sec {
+    padding: 50px;
+    text-align: center;
+    border: 2px solid #222;
+    background-color: #222;
+    border-radius: 5px;
+}
+
+.coment-sec h2 {
+    color: #ccc;
+}
+
+.coment p {
+    font-size: 15px;
+    
+}
+
+.coment span {
+    display: block;
+    margin-top: 10px;
+    color: #777;
+}
+
+
+
+
+
+.your-content {
+    background-color: #f5f5f5;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#trening-page h1{
+    border: 2px solid #222;
+    border-radius: 5px;
+    background: #222;
+    text-align: center;
+    color: chocolate;
+}
+
+#trening-page p {
+    color: chocolate;
+}
+
+.button {
+
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    margin-top: 20px;
+    margin-left: 44%;
+    border-radius: 5px;
+    transition: background-color 0.3s ;
+}
+
+.button:hover {
+    background-color: chocolate;
+}
+
+.card-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 50px;
+    box-sizing: border-box;
+    transition: transform 0.3s ;
+    background-color: #222;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h1 {
+    padding: 15px;
+    margin: 0;
+    font-size: 1.5em;
+    color: chocolate;
+}
+.card p {
+    text-align: center;
+    color: chocolate;
+    margin: 10px 0;
+}
+
+
+.training-info {
+    padding: 0 15px;
+}
+
+.card a {
+    display: block;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.card a:hover {
+    background-color: #555;
+    color: #FFD700;
+
+}
+.text2 h1{
+    border: 2px solid #222;
+    border-radius: 5px;
+    background: #222;
+    text-align: center;
+    color: chocolate;
+
+}
+
+
+form {
+    background-color:white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin-left: 40%;
+}
+
+p {
+    font-size: large;
+    margin-top:100px ;
+    text-align: center;
+    color: chocolate;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+.about-us {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.about-us h2 {
+    text-align: center;
+    color: #333;
+}
+
+.about-us p {
+    color: #555;
+
+}
+
+.training-form h2{
+    text-align: center;
+    color: chocolate;
+}
+
+.training-form {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input,
+select,
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.forma {
+    overflow: hidden;
+  }
+  
+  #animacija {
+    transform: translateY(100%);
+    animation: slideUp 1s ease-in-out forwards;
+  }
+  
+  @keyframes slideUp {
+    to {
+      transform: translateY(0);
+    }
+  }
+
+
+  
+ 
