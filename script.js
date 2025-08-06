@@ -1,13 +1,5 @@
 
-   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0F460T1KRW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-0F460T1KRW');
-</script>
+   
     let x = 5;
     if (x > 3) {
         console.log("Broj je veći od 3.");
@@ -53,3 +45,4 @@
 </script>
 
     });
+
